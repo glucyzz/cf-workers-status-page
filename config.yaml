@@ -46,13 +46,21 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
-  - id: 小🐔监控
-    name: 小🐔监控
+  - id: 图床📸
+    name: 图床📸
     description: 'Built for anything connected to the Internet.'
-    url: 'https://jk.glucy.top'
+    url: 'https://img.glucy.top'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
+
+  - id: TG反代ip
+    name: TG反代ip
+    description: 'Built for anything connected to the Internet.'
+    url: 'https://tg.glucy.top'
+    method: GET
+    expectStatus: 200
+    linkable: false # allows the title to be a link, default=true
 
   - id: halo博客
     name: halo博客
