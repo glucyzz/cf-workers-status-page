@@ -45,3 +45,35 @@ monitors:
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
+
+  - id: 小🐔监控
+    name: 小🐔监控
+    description: 'Built for anything connected to the Internet.'
+    url: 'https://jk.glucy.top'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+  - id: halo博客
+    name: halo博客
+    description: 'Built for anything connected to the Internet.'
+    url: 'https://www.glucy.me'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+  - id: wordpress博客
+    name: wordpress博客
+    description: 'cool.yetinode.com.'
+    url: 'https://blog.glucy.top'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+  - id: 备份博客
+    name: 备份博客
+    description: 'www.dewlance.com.'
+    url: 'https://blog1.glucy.top'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
