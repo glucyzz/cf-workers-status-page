@@ -65,7 +65,7 @@ monitors:
   - id: halo博客
     name: halo博客
     description: 'Built for anything connected to the Internet.'
-    url: 'https://www.glucy.me'
+    url: 'https://www.glucy.top'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
