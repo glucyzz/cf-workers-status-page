@@ -81,7 +81,23 @@ monitors:
   - id: 备份博客
     name: 备份博客
     description: 'www.dewlance.com.'
-    url: 'https://blog1.glucy.top/wp'
+    url: 'https://blog2.glucy.top/wp'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
+
+  - id: 备份博客
+    name: 备份博客
+    description: 'www.dewlance.com.'
+    url: 'https://blog3.glucy.top'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+  - id: 备份博客
+    name: 备份博客
+    description: 'www.dewlance.com.'
+    url: 'http://glucy.cooo.in'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true    
