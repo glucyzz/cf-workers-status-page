@@ -100,4 +100,12 @@ monitors:
     url: 'http://glucy.cooo.in'
     method: GET
     expectStatus: 200
-    linkable: true # allows the title to be a link, default=true    
+    linkable: true # allows the title to be a link, default=true
+    
+  - id: xyz埋
+    name: 埋xyz
+    description: 'www.dewlance.com.'
+    url: 'https://blog.5200621.xyz'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true 
