@@ -6,7 +6,7 @@ webpack_config = "node_modules/flareact/webpack"
 compatibility_date = "2024-01-15"
 
 [triggers]
-crons = ["*/60 * * * *"]
+crons = ["*/50 * * * *"]
 
 [site]
 bucket = "out"
