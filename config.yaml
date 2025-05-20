@@ -62,37 +62,14 @@ monitors:
     expectStatus: 200
     linkable: false # allows the title to be a link, default=true
 
-  - id: halo博客
-    name: halo博客
+  - id: wordpress博客
+    name: wordpress博客
     description: 'Built for anything connected to the Internet.'
     url: 'https://www.glucy.top'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
-  - id: wordpress博客
-    name: wordpress博客
-    description: 'cool.yetinode.com.'
-    url: 'https://blog.glucy.top'
-    method: GET
-    expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
-
-  - id: 备份博客
-    name: 备份博客
-    description: '小埋.'
-    url: 'https://blog2.glucy.top'
-    method: GET
-    expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
-
-  - id: 备份博客1
-    name: 备份博客1
-    description: 'www.dewlance.com.'
-    url: 'https://blog3.glucy.top'
-    method: GET
-    expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
 
   - id: 备份博客2
     name: 备份博客2
@@ -100,12 +77,4 @@ monitors:
     url: 'http://glucy.cooo.in'
     method: GET
     expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
-    
-  - id: xyz埋
-    name: 埋xyz
-    description: 'www.dewlance.com.'
-    url: 'https://blog.5200621.xyz'
-    method: GET
-    expectStatus: 200
-    linkable: true # allows the title to be a link, default=true 
+    linkable: false # allows the title to be a link, default=true
